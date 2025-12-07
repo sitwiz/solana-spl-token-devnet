@@ -78,3 +78,27 @@ spl-token authorize <MINT_ADDRESS> mint --disable
 
 # Confirm state
 spl-token display <MINT_ADDRESS>
+
+## Project summary
+
+This repo documents a transparent SPL token learning project on Solana **devnet**.
+My goal was to understand the full token lifecycle and ship something that demonstrates
+safe, non-scammy defaults and good documentation.
+
+### What this demonstrates
+- Creating an SPL mint and associated token account (ATA)
+- Minting an intended supply
+- Removing owner powers (fixed supply + no freeze)
+- Adding Metaplex metadata correctly
+- Writing a clear runbook and case study
+
+### v1 vs v2 (key lesson)
+- **v1 mint:** CgELqM37jwP5K1dQFpNnKyEQwLti1REnsgmSmLhqzfdD  
+  Trust-first, fixed supply, no freeze — but I disabled mint authority before adding metadata.
+- **v2 mint:** 9CatQXAxvq5cm75MAvGpEoUsVtmthsc5pHdMstaStZsg  
+  Metadata-first, then supply minted, then authorities removed.
+
+This demonstrates the correct sequencing:
+1. Create mint + metadata
+2. Mint intended supply
+3. Disable mint/freeze authorities
