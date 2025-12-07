@@ -8,6 +8,24 @@ This is for educational purposes only.
 No promises, no roadmap, no expectation of profit.
 Do not treat this as an investment.
 
+## How to review this project (quick)
+
+If you’re scanning this repo as a recruiter/client:
+
+1. **README.md** – overview of the token + trust posture.
+2. **NOTES.md** – short case study of my design choices and what I learned.
+3. **COMMANDS.md** – runbook showing the full CLI flow.
+
+### Trust proof highlights (devnet)
+- Standard SPL Token Program
+- Fixed supply (mint authority removed)
+- No freeze authority
+
+### Devnet addresses
+- Mint: CgELqM37jwP5K1dQFpNnKyEQwLti1REnsgmSmLhqzfdD
+- My ATA: 2dj96iijr74fcDBNsWj14y9CP33qRo1AZMbf79kMnkWc
+
+
 ## Token Details (Devnet)
 - **Mint address:** CgELqM37jwP5K1dQFpNnKyEQwLti1REnsgmSmLhqzfdD
 - **Program:** TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
