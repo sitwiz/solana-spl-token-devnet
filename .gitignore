@@ -1,0 +1,10 @@
+# Solana keypairs / secrets
+*.json
+id.json
+*keypair*
+*meme-coin-devnet*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
