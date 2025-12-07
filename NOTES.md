@@ -39,6 +39,8 @@ This means:
 - Associated Token Accounts (ATA)
 - How to design and document a transparent token project
 
+- The correct order is: create mint + metadata → mint supply → disable mint/freeze authorities.
+
 ## What I would do next
 - Add token metadata (name/symbol/image)
 - Create a tiny devnet liquidity pool for demonstration

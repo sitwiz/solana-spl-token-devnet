@@ -33,6 +33,24 @@ If you’re scanning this repo as a recruiter/client:
 - **Intended total supply:** 1,000,000,000
 - **My token account (ATA):** 2dj96iijr74fcDBNsWj14y9CP33qRo1AZMbf79kMnkWc
 
+## Token v2 (Devnet, metadata-first)
+
+This version demonstrates the correct sequencing for Token Metadata.
+
+- **Mint v2:** 9CatQXAxvq5cm75MAvGpEoUsVtmthsc5pHdMstaStZsg
+- **Metadata account:** AXzn9ZEK6yaWiDPcLFet27JfvNQkPFiaiTUod6iXdcqY
+- **URI:** https://raw.githubusercontent.com/sitwiz/solana-spl-token-devnet/main/metadata.json
+
+### Why v2 exists
+My first mint was locked (mint authority removed) before adding metadata.
+Since creating metadata requires the appropriate authority during setup,
+I created a second devnet mint using a metadata-first flow.
+
+### Final trust posture (v2)
+- Mint authority: not set
+- Freeze authority: not set
+
+
 ## Trust / Safety Configuration
 - **Mint authority:** not set (fixed supply)
 - **Freeze authority:** not set
