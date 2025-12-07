@@ -8,3 +8,6 @@ id.json
 .DS_Store
 Thumbs.db
 .vscode/
+
+!metadata.json
+

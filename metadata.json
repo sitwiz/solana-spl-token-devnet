@@ -1,0 +1,17 @@
+{
+  "name": "Devnet Learning Token",
+  "symbol": "DLT",
+  "description": "A transparent Solana devnet SPL token built as a learning/portfolio project. Fixed supply, no freeze authority.",
+  "image": "https://placehold.co/512x512.png",
+  "external_url": "https://github.com/sitwiz/solana-spl-token-devnet",
+  "attributes": [
+    { "trait_type": "Network", "value": "Devnet" },
+    { "trait_type": "Purpose", "value": "Learning/Portfolio" }
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      { "uri": "https://placehold.co/512x512.png", "type": "image/png" }
+    ]
+  }
+}
