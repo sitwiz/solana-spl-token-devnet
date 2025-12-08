@@ -128,3 +128,13 @@ cd dapp
 npm install
 npm run dev
 
+
+## Mini dApp (devnet)
+
+A minimal React + TypeScript dashboard lives in `/dapp` that reads mint info and wallet balances from Solana devnet.
+
+```bash
+cd dapp
+npm install
+npm run dev
+
