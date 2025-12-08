@@ -102,3 +102,18 @@ This demonstrates the correct sequencing:
 1. Create mint + metadata
 2. Mint intended supply
 3. Disable mint/freeze authorities
+
+## TypeScript scripts (devnet)
+
+These scripts demonstrate programmatic SPL token reads and transfers for my devnet mints.
+
+```bash
+# Print mint info for v1 + v2
+npm run mint-info
+
+# Check my wallet balance for v2 by default
+npm run balance
+
+# Send 1 token (v2) to a recipient on devnet
+RECIPIENT=<DEVNET_ADDRESS> npm run send
+
