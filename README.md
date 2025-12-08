@@ -117,3 +117,14 @@ npm run balance
 # Send 1 token (v2) to a recipient on devnet
 RECIPIENT=<DEVNET_ADDRESS> npm run send
 
+
+## Mini dApp (devnet)
+
+A minimal React + TypeScript dashboard lives in `/dapp` that reads mint info and wallet balances from devnet.
+Run it with:
+
+```bash
+cd dapp
+npm install
+npm run dev
+
